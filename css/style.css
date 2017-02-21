@@ -25,11 +25,30 @@ dl, dt, dd, ol, ul, li {
 	top: 80px;
 }
 
+
+.newnew {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	margin: 25px;
+	padding: 80px;
+}
+
 .fa-home {
+
 	color: #3498db;
 	
 	
 	
+}
+
+.roundish {
+	padding: 30px;
+	border-radius: 25px;
+}
+
+.testi-meta {
+	padding: 10px;
+	border-radius: 25px;
 }
 
 .fa-money {
@@ -7289,10 +7308,14 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box h3 {
 	font-size: 16px;
 	font-weight: 700;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	letter-spacing: 1px;
 	margin-bottom: 0;
 	color: #333;
+	padding: 55px;
+	margin-top: -20px;
+
+
 }
 
 .feature-box p {
