@@ -17,9 +17,13 @@ dl, dt, dd, ol, ul, li {
 
 .fa-usd {
 	color: #e74c3c;
-
-	
 }
+
+/*.fa-linkedin {
+	color: #;
+}*/
+
+
 
 .brands {
 	top: 80px;
@@ -939,13 +943,14 @@ body.stretched #header.full-header .container {
 
 
 #logo {
-	position: relative;
+	position: block;
 	float: left;
 	top: 15px;
 /*	font-family: 'Raleway', sans-serif;*/
 	font-size: 36px;
 	line-height: 100%;
 	margin-right: 40px;
+	
 }
 
 #header.full-header #logo {
@@ -962,13 +967,14 @@ body.stretched #header.full-header .container {
 }
 
 #logo img {
-	display: block;
+	display: inline;
+	float: left;
 	/*max-width: 100%;*/
-	width: auto;
-    height: auto;
-    max-width: 300px;
-    max-height: 40px;
-    border-radius: 27px;
+/*	width:200px;
+    height:200px;*/
+    /*max-width: 300px;*/
+    max-height: 75px;
+   /* border-radius: 27px;*/
     
 
 }
@@ -8330,8 +8336,8 @@ body:not(.device-touch) .social-icon i {
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
 }
-
-.social-icon i:last-child { color: #FFF !important; }
+/*
+.social-icon i:last-child { color: #FFF !important; } removed due to blocking of gray linkedin*/
 
 .social-icon:hover i:first-child { margin-top: -38px; }
 
@@ -9377,7 +9383,7 @@ body:not(.device-touch) .clients-grid li a {
 	border: 0 !important;
 	box-shadow: none !important;
 	max-width: 800px;
-	margin: 0 auto;
+	margin: 0 auto;  
 }
 
 .section > .testimonial[data-animation="fade"] { padding: 0; }
