@@ -966,7 +966,7 @@ body.stretched #header.full-header .container {
 	color: #000;
 }
 
-#logo img {
+#logo img 
 	display: inline;
 	float: left;
 	/*max-width: 100%;*/
